@@ -1,0 +1,159 @@
+* {
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  color: #555557;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  text-align: center;
+  font-size: 125px;
+  color: white;
+  margin-top: 5%;
+  background: none;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  float: left;
+  margin-top: 0;
+}
+
+.jumbotron {
+  background-image: url(http://img10.deviantart.net/b812/i/2005/059/b/f/seattle_skyline_panorama_by_goletaal.jpg);
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 250px;
+  margin-left: -10px;
+  margin-top: -10px;
+  border-bottom: 10px solid;
+  border-color: #f8f9fa;
+}
+
+.nav {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  z-index: 9;
+  margin-top: 255px;
+  width: 100%;
+  height: 40px;
+  border-bottom: 8px solid;
+  border-color: #f8f9fa;
+}
+
+.nav-button {
+  display: inline;
+  width: 100px;
+  border: 2px solid #d6d6d9;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#me {
+  display: block;
+  margin: auto;
+  height: 500px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  border-top: 2px solid #747475;
+  padding-top: 15px;
+  margin-top: 5%;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+figure {
+  display: inline-block;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+figcaption {
+  text-align: center;
+  display: none;
+}
+
+.pnw {
+  width: 17%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.pnw-photos {
+  width: 100%;
+}
+
+.fam {
+  width: 22%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.fam-photos {
+  width: 100%;
+}
+
+.hobby {
+  display: block;
+  width: 50%;
+  position: relative;
+  float: left;
+  line-height: 35px;
+  font-size: 20px;
+  margin-top: 5%;
+  text-align: right;
+  overflow: hidden;
+}
+
+.hobby-photos {
+  display: block;
+  width: 50%;
+  position: relative;
+  float: left;
+  margin-left: 10%;
+  max-width: 300px;
+}
+
+h3 {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 70px;
+  }
+  .hobby, .hobby-photos, .pnw {
+    width: 100%;
+  }
+}

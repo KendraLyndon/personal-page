@@ -1,0 +1,106 @@
+* {
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  color: #555557;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  text-align: center;
+  font-size: 125px;
+  color: white;
+  margin-top: 5%;
+  background: none;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.jumbotron {
+  background-image: url(http://img10.deviantart.net/b812/i/2005/059/b/f/seattle_skyline_panorama_by_goletaal.jpg);
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 250px;
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-right: -10px;
+  border-bottom: 10px solid;
+  border-color: #f8f9fa;
+}
+
+.nav {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  z-index: 9;
+  margin-top: 250px;
+  width: 100%;
+  height: 40px;
+  border-bottom: 8px solid;
+  border-color: #f8f9fa;
+}
+
+.nav-button {
+  display: inline;
+  width: 100px;
+  border: 2px solid #d6d6d9;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  border-top: 2px solid #747475;
+  padding-top: 15px;
+  margin-top: 5%;
+}
+
+.text {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 20px;
+}
+
+.gif-text {
+  display: block;
+  width: 50%;
+  position: relative;
+  float: left;
+  line-height: 35px;
+  font-size: 20px;
+  margin-top: 5%;
+  padding-top: 10%;
+  text-align: right;
+  font-size: 35px;
+}
+
+.goal-gif {
+  display: block;
+  width: 50%;
+  position: relative;
+  float: left;
+  margin-left: 5%;
+  max-width: 300px;
+  margin-top: 5%;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 70px;
+  }
+}
