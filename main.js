@@ -1,5 +1,6 @@
 $(document).ready(function(){
-  $(.fig).on('click',(function(){
-    $(this).find(figcaption).slideToggle();
+  $('figcaption').hide();
+  $('figure').on('click',(function(){
+    $(this).find('figcaption').fadeIn();
   });
 });
