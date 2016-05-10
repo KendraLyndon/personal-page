@@ -8,7 +8,7 @@ h1 {
   text-align: center;
   font-size: 125px;
   color: white;
-  margin-top: 5%;
+  margin-top: 0;
   background: none;
 }
 
@@ -21,12 +21,10 @@ h1 {
 .jumbotron {
   background-image: url(http://img10.deviantart.net/b812/i/2005/059/b/f/seattle_skyline_panorama_by_goletaal.jpg);
   z-index: 10;
-  position: fixed;
   width: 100%;
-  height: 250px;
+  height: 225px;
   margin-left: -10px;
   margin-top: -10px;
-  margin-right: -10px;
   border-bottom: 10px solid;
   border-color: #f8f9fa;
 }
@@ -36,7 +34,7 @@ h1 {
   position: relative;
   text-align: center;
   z-index: 9;
-  margin-top: 250px;
+  margin-top: 10px;
   width: 100%;
   height: 40px;
   border-bottom: 8px solid;
@@ -45,11 +43,14 @@ h1 {
 
 .nav-button {
   display: inline;
-  width: 100px;
   border: 2px solid #d6d6d9;
   border-radius: 5px;
   background-color: #f8f9fa;
-  font-size: 18px;
+  font-size: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 a {
@@ -65,9 +66,9 @@ a {
 h2 {
   text-align: center;
   font-size: 50px;
-  border-top: 2px solid #747475;
   padding-top: 15px;
   margin-top: 5%;
+  border-top: 2px solid #747475;
 }
 
 .text {
@@ -97,6 +98,10 @@ h2 {
   margin-left: 5%;
   max-width: 300px;
   margin-top: 5%;
+}
+
+#nav-bottom {
+  margin-top: 60px;
 }
 
 @media (max-width: 800px) {
